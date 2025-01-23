@@ -1,0 +1,71 @@
+csv:
+    path: "C:\\Users\\1\\Desktop\\vivo\\dataset.csv"
+    path_images: "C:\\Users\\1\\Desktop\\vivo\\images"
+    table:
+        columns:
+            customerID:
+                type: VARCHAR
+                metadado: qualitativo nominal
+                key: True
+            gender:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            SeniorCitizen: 
+                type: INTEGER
+                metadado: quantitativo discreto
+            Partner:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            Dependents:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            tenure:
+                type: INTEGER
+                metadado: quantitativo discreto
+            PhoneService:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            MultipleLines:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            InternetService:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            OnlineSecurity:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            OnlineBackup:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            DeviceProtection:
+                type: VARCHAR
+                metadado: quantitativo discreto
+                key: True
+            TechSupport: 
+                type: VARCHAR
+                metadado: quantitativo discreto
+            StreamingTV:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            StreamingMovies:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            Contract:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            PaperlessBilling:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            PaymentMethod:
+                type: VARCHAR
+                metadado: quantitativo discreto
+            MonthlyCharges:
+                type: DOUBLE PRECISION
+                metadado: quantitativo continuo
+            TotalCharges:
+                type: DOUBLE PRECISION
+                metadado: quantitativo continuo
+            Churn:
+                type: INTEGER
+                metadado: quantitativo discreto
+       
